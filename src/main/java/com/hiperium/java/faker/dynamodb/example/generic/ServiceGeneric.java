@@ -26,13 +26,13 @@ public class ServiceGeneric {
     }
 
     protected static DynamoDbTable<Location> locationTable = DYNAMO_DB_ENHANCED_CLIENT
-            .table("Locations", TableSchema.fromBean(Location.class));
+            .table("Location", TableSchema.fromBean(Location.class));
 
     protected static DynamoDbTable<Company> companyTable = DYNAMO_DB_ENHANCED_CLIENT
-            .table("Companies", TableSchema.fromBean(Company.class));
+            .table("Company", TableSchema.fromBean(Company.class));
 
     protected static DynamoDbTable<OpenPosition> positionsTable = DYNAMO_DB_ENHANCED_CLIENT
-            .table("OpenPositions", TableSchema.fromBean(OpenPosition.class));
+            .table("OpenPosition", TableSchema.fromBean(OpenPosition.class));
 
     protected ServiceGeneric() {}
 

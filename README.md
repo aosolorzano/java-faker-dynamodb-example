@@ -1,5 +1,9 @@
 ## What is it?
-Java project that populate faker data on DynamoDB tables using the aws-sdk version 2.
+Java project that populate faker data on DynamoDB using the aws-sdk version 2.
+
+## Detailed components' creation/modification
+You can find more detail of the configurations and components coded in this project in the following post:
+[Using Java Faker to populate data on DynamoDB employing AWS-SDK](https://aosolorzano.medium.com/adding-amplify-auth-to-your-ionic-angular-projects-4c8b6337e4e6).
 
 ## Pre-requisites
 1. [Git](https://git-scm.com/downloads).
@@ -18,7 +22,7 @@ This project must run in a terminal window:
 java -jar target/java-faker-dynamodb-example.jar
 ```
 
-## Exporting created data from DynamoDB to JSON files on S3
+## Exporting created data from DynamoDB to S3 (Optional)
 1. Go to AWS Console and select DynamoDB service.
 2. In the menu select the option "Export to S3".
 3. Select the table that you want to export, and the bucket name to store the exporting files.

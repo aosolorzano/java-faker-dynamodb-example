@@ -7,7 +7,6 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>java-faker-dynamodb-example</name>
     <description>Hiperium Project for Smart Cities</description>
-    <url>https://github.com/aosolorzano/java-faker-dynamodb-example.git</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,6 +14,12 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/aosolorzano/java-faker-dynamodb-example.git</connection>
+        <developerConnection>scm:git:git@github.com:aosolorzano/java-faker-dynamodb-example.git</developerConnection>
+        <url>git://github.com/aosolorzano/java-faker-dynamodb-example.git</url>
+    </scm>
 
     <dependencyManagement>
         <dependencies>
@@ -44,24 +49,18 @@
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
+            <artifactId>log4j-api</artifactId>
             <version>2.17.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
+            <artifactId>log4j-core</artifactId>
             <version>2.17.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.17.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.8.2</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -100,11 +99,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
             </plugin>
         </plugins>
     </build>

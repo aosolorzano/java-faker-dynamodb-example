@@ -17,8 +17,8 @@ import java.util.Properties;
 public class MainClass {
 
     private static final Logger LOGGER = LogManager.getLogger(MainClass.class);
-    private static final int MAX_NUM_LOCATIONS_TO_GENERATE = 20;
-    private static final int MAX_NUM_COMPANIES_PER_LOCATION = 10;
+    private static final int MAX_NUM_LOCATIONS_TO_GENERATE = 25;
+    private static final int MAX_NUM_COMPANIES_PER_LOCATION = 15;
     private static final int MAX_NUM_OPEN_POSITIONS_PER_COMPANY = 5;
     private static final String RANGE_SUPPORTED_EXCEPTION_MESSAGE = "The number entered exceed the range supported.";
 
