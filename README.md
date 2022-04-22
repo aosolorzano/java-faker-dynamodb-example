@@ -3,7 +3,7 @@ Java project that populate faker data on DynamoDB using the aws-sdk version 2.
 
 ## Detailed components' creation/modification
 You can find more detail of the configurations and components coded in this project in the following post:
-[Using Java Faker to populate data on DynamoDB employing AWS-SDK](https://aosolorzano.medium.com/adding-amplify-auth-to-your-ionic-angular-projects-4c8b6337e4e6).
+[Using Java Faker to populate data on DynamoDB employing AWS-SDK](https://aosolorzano.medium.com/using-java-faker-lib-to-populate-data-on-dynamodb-employing-aws-sdk-99e2cfab0e2b).
 
 ## Pre-requisites
 1. [Git](https://git-scm.com/downloads).
